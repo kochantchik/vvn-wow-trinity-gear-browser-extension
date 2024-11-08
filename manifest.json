@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "WoW - Gear planer to cheat macros",
+  "version": "1.0",
+
+  "icons": {
+    "48": "icons/sosi_ska.png"
+  },
+
+  "description": "Convert wowhead gear planner import string into wow macros. VVN Software",
+
+  "permissions": ["tabs", "activeTab", "storage"],
+
+  "browser_action": {
+    "default_icon": "icons/sosi_ska.png",
+    "default_title": "WoW - Gear planer to cheat macros",
+    "default_popup": "popup/main.html"
+  }
+}

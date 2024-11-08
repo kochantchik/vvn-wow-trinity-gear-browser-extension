@@ -1,0 +1,13 @@
+.column {
+  display: flex;
+  flex-flow: column;
+  gap: 0.25em;
+}
+
+.column:not(:first-child) {
+  margin-top: 0.5em;
+}
+
+button {
+  width: 100%;
+}
